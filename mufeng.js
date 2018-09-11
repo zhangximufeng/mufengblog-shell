@@ -28,7 +28,7 @@ Date.prototype.Format = function (fmt) {
 
 console.log(
     chalk.blue.bold(
-        figlet.textSync('mufengblog-shell', { horizontalLayout: 'full' })
+        figlet.textSync('mufengblog', { horizontalLayout: 'full' })
     )
 )
 
