@@ -1,0 +1,42 @@
+{
+  "name": "mufengblog-shell",
+  "version": "1.2.0",
+  "description": "vuepress-theme-mufeng shell",
+  "main": "index.js",
+  "repository": "https://github.com/zhangximufeng/mufengblog-shell",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vuepress",
+    "vuepress-theme",
+    "mufeng",
+    "mufengblog-shell",
+    "shell"
+  ],
+  "files": [
+    "index.js",
+    "mufeng.js",
+    "frontmatter.yml"
+  ],
+  "bin": {
+    "mufengblog": "./index.js"
+  },
+  "author": "wuwaki",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "commander": "^2.9.0",
+    "cross-spawn": "^6.0.5",
+    "envinfo": "3.4.2",
+    "figlet": "^1.2.0",
+    "fs": "0.0.1-security",
+    "fs-extra": "^5.0.0",
+    "ora": "^2.0.0",
+    "semver": "^5.5.0",
+    "shelljs": "^0.8.1",
+    "vuepress": "^0.7.1",
+    "yamljs": "^0.3.0",
+    "yargs": "^11.0.0"
+  }
+}
